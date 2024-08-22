@@ -34,8 +34,16 @@ const priority = [
         value: 'lowest',
         label: 'Lowest'
     }
-]
+];
+
+const taskStatus = { 
+    TODO: 'todo',
+    IN_PROGRESS: 'inProgress',
+    TEST: 'test',
+    DONE: 'done',
+}
 
 export {
-    issueTypes, priority
+    issueTypes, priority, taskStatus
 }
+
